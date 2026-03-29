@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧠 Deep Learning — Part 1: Artificial Neural Networks (ANN)
+# 🧠 Deep Learning - Part 1: Artificial Neural Networks (ANN)
 
 ### Foundations of ANN — From Scratch to Iris Flower Classification
 
@@ -13,7 +13,7 @@
 
 <br/>
 
-> **A hands-on deep learning series covering ANN fundamentals — binary classification from scratch on a custom dataset, followed by multi-class Iris flower classification using a full Keras Sequential model.**
+> **A hands-on deep learning series covering ANN fundamentals - binary classification from scratch on a custom dataset, followed by multi-class Iris flower classification using a full Keras Sequential model.**
 
 </div>
 
@@ -35,16 +35,16 @@
 
 ## 📌 About the Project
 
-**Deep Learning — Part 1** is the foundational module of a deep learning series focused on **Artificial Neural Networks (ANN)**. This part covers two progressive notebooks:
+**Deep Learning - Part 1** is the foundational module of a deep learning series focused on **Artificial Neural Networks (ANN)**. This part covers two progressive notebooks:
 
 | Notebook | Focus |
 |----------|-------|
-| 📓 `Basics_of_ANN_Implementation.ipynb` | ANN fundamentals — binary classification on a custom soil/plant watering dataset using a 2-layer Keras model |
-| 🌸 `Iris_Flower_Classification_using_ANN.ipynb` | Multi-class classification — Iris species prediction using a 3-layer ANN with Perceptron baseline comparison |
+| 📓 `Basics_of_ANN_Implementation.ipynb` | ANN fundamentals - binary classification on a custom soil/plant watering dataset using a 2-layer Keras model |
+| 🌸 `Iris_Flower_Classification_using_ANN.ipynb` | Multi-class classification - Iris species prediction using a 3-layer ANN with Perceptron baseline comparison |
 
-The series is designed for learners who want to **understand ANN architecture from the ground up** — covering data preprocessing, model building, training, evaluation, and visualization.
+The series is designed for learners who want to **understand ANN architecture from the ground up** - covering data preprocessing, model building, training, evaluation, and visualization.
 
-> 💡 Both notebooks are self-contained and progressively build upon each other — start with the Basics notebook before moving to the Iris classification.
+> 💡 Both notebooks are self-contained and progressively build upon each other - start with the Basics notebook before moving to the Iris classification.
 
 ---
 
@@ -56,7 +56,7 @@ The series is designed for learners who want to **understand ANN architecture fr
 
 **Architecture:**
 ```
-Input (3 features) → Dense(8, ReLU) → Dense(1, Sigmoid) → Binary Output
+Input (3 features) -> Dense(8, ReLU) -> Dense(1, Sigmoid) -> Binary Output
 ```
 
 **Key Steps:**
@@ -74,13 +74,13 @@ Input (3 features) → Dense(8, ReLU) → Dense(1, Sigmoid) → Binary Output
 
 **Architecture:**
 ```
-Input (4 features) → Dense(16, ReLU) → Dense(8, ReLU) → Dense(3, Softmax) → 3-class Output
+Input (4 features) -> Dense(16, ReLU) -> Dense(8, ReLU) -> Dense(3, Softmax) -> 3-class Output
 ```
 
 **Key Steps:**
 - EDA with `seaborn` pairplot
 - Label encoding + Standard scaling
-- Perceptron baseline → ANN upgrade
+- Perceptron baseline -> ANN upgrade
 - Categorical cross-entropy + Adam
 - Training/Validation accuracy curve visualization
 
